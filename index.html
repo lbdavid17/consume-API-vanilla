@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon shinyDex</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <main>
+
+        <div id="infoContainer">
+            <img src="images/logo_pokemon.png" alt="pokemon logo" id="logo">
+    
+            <div id="comboBoxesContainer">
+                <select name="show" id="show">
+                    <option value="stats">stats</option>
+                    <option value="shiny">shiny</option>    
+                </select>
+                <select name="way" id="way">
+                    <option value="promises">using promises</option>
+                    <option value="asyncawait">using asyncawait</option>    
+                </select>
+            </div>
+            <div id="searchContainer">
+                <input type="text" id="pokemonToSearch" placeholder="Pokémon name/number">
+                <button id="search">Show</button>
+            </div>
+        </div>
+
+        <div id="resultContainer"></div>
+
+    </main>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(175, 166, 166, 0.5);
+    margin: 30px;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+main > div {
+    width: 48%; 
+    padding: 20px;
+}
+
+#comboBoxesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+
+#comboBoxesContainer #way {
+    margin-left: 10px;
+}
+
+#searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+
+#searchContainer #search {
+    margin-left: 10px;
+}
+
+#resultContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+}
+#resultContainer > p {
+    padding: 5px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow:   3px 3px red;
+}
+
+#resultContainer > img {
+    width: 40%;
+}
+
+#logo {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+}
