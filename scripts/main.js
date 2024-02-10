@@ -64,7 +64,7 @@ const showShiny= (data) => {
 }
 
 const showError = () => {
-   resultadoDiv.textContent = "Error al obtener datos del pokémon";
+   resultadoDiv.textContent = "Error obtaining data from pokémon";
 }
 
 let button= document.getElementById("search");
